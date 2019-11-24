@@ -24,15 +24,15 @@
 body {
   font-family: Montserrat, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
   font-weight: 300;
-  color: #FEFDFD;
+  color: #657b83;
 }
 h1, h2, h3 {
   font-family: Josefin Sans;
   font-weight: normal;
-  color: #F97B64;
+  color: #dc322f;
 }
 .remark-slide-content {
-  background-color: #1F4257;
+  background-color: #fdf6e3;
   font-size: 20px;
   
   
@@ -56,18 +56,18 @@ h1, h2, h3 {
 }
 .remark-inline-code {
   font-size: 1em;
-  color: #F97B64;
+  color: #6c71c4;
   
   
 }
 .remark-slide-number {
-  color: #FEFDFD;
+  color: #93a1a1;
   opacity: 1;
   font-size: 0.9em;
 }
-strong{color:#F97B64;}
+strong{color:#d33682;}
 a, a > code {
-  color: #F97B64;
+  color: #b58900;
   text-decoration: none;
 }
 .footnote {
@@ -78,21 +78,21 @@ a, a > code {
   font-size: 0.9em;
 }
 .remark-code-line-highlighted {
-  background-color: rgba(255,255,0,0.5);
+  background-color: #268bd240;
 }
 .inverse {
-  background-color: #F97B64;
-  color: #1F4257;
+  background-color: #002b36;
+  color: #fdf6e3;
   
 }
 .inverse h1, .inverse h2, .inverse h3 {
-  color: #1F4257;
+  color: #fdf6e3;
 }
 .title-slide, .title-slide h1, .title-slide h2, .title-slide h3 {
-  color: #F97B64;
+  color: #fdf6e3;
 }
 .title-slide {
-  background-color: #1F4257;
+  background-color: #002b36;
   
   
   
@@ -107,10 +107,10 @@ a, a > code {
   float: left;
 }
 .left-column h2, .left-column h3 {
-  color: #F97B6499;
+  color: #93a1a1;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #F97B64;
+  color: #586e75;
 }
 .right-column {
   width: 75%;
@@ -132,35 +132,35 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #F97B6480;
+  border-left: solid 5px #cb4b16;
   padding-left: 1em;
 }
 .remark-slide table {
   margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
+  border-top: 1px solid #839496;
+  border-bottom: 1px solid #839496;
 }
-.remark-slide table thead th { border-bottom: 1px solid #ddd; }
+.remark-slide table thead th { border-bottom: 1px solid #839496; }
 th, td { padding: 5px; }
-.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #627A89 }
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee8d5 }
 table.dataTable tbody {
-  background-color: #1F4257;
-  color: #FEFDFD;
+  background-color: #fdf6e3;
+  color: #657b83;
 }
 table.dataTable.display tbody tr.odd {
-  background-color: #1F4257;
+  background-color: #fdf6e3;
 }
 table.dataTable.display tbody tr.even {
-  background-color: #627A89;
+  background-color: #eee8d5;
 }
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
-  color: #FEFDFD;
+  color: #657b83;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button {
-  color: #FEFDFD !important;
+  color: #657b83 !important;
 }
 
 @page { margin: 0; }
