@@ -1,2 +1,3 @@
-# Abstract_Writing
-Writing short descriptions that inform and persuade
+# Abstract Writing
+
+## Writing short descriptions that inform and persuade
