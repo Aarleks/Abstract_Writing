@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Abstract Writing</title>
     <meta charset="utf-8" />
     <meta name="author" content="Alex Norman &amp; Jack Tsonis" />
-    <meta name="date" content="2019-11-25" />
+    <meta name="date" content="2020-10-08" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
@@ -16,7 +17,7 @@ class: center, middle, inverse, title-slide
 # Abstract Writing
 ### Alex Norman &amp; Jack Tsonis
 ### Western Sydney University
-### <em>November 25, 2019</em>
+### <em>October 8, 2020</em>
 
 ---
 
@@ -35,6 +36,22 @@ class: center, middle
 .Large[a summary of the contents of a book, article, or speech]
 
 ---
+class: middle
+
+# Nobody cares what you think
+
+We read text to change the way we think about the world.
+
+
+
+
+
+---
+class: middle
+
+# Clear, Organised, Persuasive, Valuable
+
+---
 class: inverse, center, middle
 
 # Get Started
@@ -44,7 +61,7 @@ class: inverse, center, middle
 Freewrite 3-4 sentences that explain what you are trying to do.
 
 ---
-class: 
+class:
 
 # Why do abstracts matter?
 
@@ -75,7 +92,7 @@ class: center, middle
 
 ## All your writing should be in the service of your readers
 
-We want to help your readers think better about the world. 
+We want to help your readers think better about the world.
 
 Our labour is in the direction of making readers' jobs easier.
 
@@ -86,29 +103,32 @@ The abstract to your paper/article/book is your first step in helping colleagues
 ### Your job is to make your text &lt;br&gt;**valuable for** your **colleagues**
 
 ---
-class: middle, left
+class:
 
 # An Abstract for Today's Session
 
+.pull-left[
 #### Many higher degree research students have to write abstracts for thesis proposals, journal articles, and conference presentations as part of their candidature. While there is a wealth of advice about writing, both in the humanities and the sciences, the steps required to produce a well-written abstract can be difficult to find. This workshop presents information about abstract writing and puts it into a 'function-based' framework that students can use to develop their writing skills. This framework helps students see abstract writing as a step-wise procedure, and helps them to write abstracts that are useful for readers.
+]
+
 
 ---
 
 # The 4-Function Method
 
 1. **Focus**
-  * What is the general context? What is the general problem? 
-  
+  * What is the general context? What is the general problem?
+
 2. **Locate**
   * What is the specific research problem? What is the specific context?
   * What is the justification for examining the specific problem?
-  
+
 3. **Explain**
   * What are you going to do/what did you do about the problem?
   * What should the reader expect to find in the text?
-  
+
 4. **Implications**
-  * What becomes possible because of this research? Conceptually, theoretically, procedurally? 
+  * What becomes possible because of this research? Conceptually, theoretically, procedurally?
   * How does the research contribute to the field?
   * How/why does the text help colleagues specifically?
 
@@ -139,7 +159,7 @@ class: left
 ]
 
 .right-column[
-#### Many higher degree research students have to write abstracts for thesis proposals, journal articles, and conference presentations as part of their candidature. 
+#### Many higher degree research students have to write abstracts for thesis proposals, journal articles, and conference presentations as part of their candidature.
 ####While there is a wealth of advice about writing, both in the humanities and the sciences, the steps required to produce a well-written abstract can be difficult to find.
 ####This workshop presents information about abstract writing and puts it into a 'function-based' framework that students can use to develop their writing skills.
 ####This framework helps students see abstract writing as a step-wise procedure, and helps them to write abstracts that are useful for readers.
@@ -149,8 +169,6 @@ class: left
 class: center, middle
 
 # Thank you!
-
-Presentation slides will be available on my website later today.
 
 
 **Contact Details**
@@ -164,13 +182,15 @@ Presentation slides will be available on my website later today.
 [<i class="fab  fa-github "></i> @Aarleks](https://github.com/Aarleks)
 
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
-"countIncrementalSlides": false
+"countIncrementalSlides": false,
+"ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
@@ -210,9 +230,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -221,7 +257,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {
